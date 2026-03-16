@@ -61,7 +61,7 @@ def mcp_endpoint():
     server_info = {
         "name": "Aethera Agent Server",
         "version": "1.0.0",
-        "website": "https://aethera-api.vercel.app",
+        "website": "https://aethera-api-alpha.vercel.app",
         "description": "Smart AI agent for easy data analysis. It helps you understand datasets, make charts, and forecast trends fast on the Base network."
     }
     tools = [
@@ -143,13 +143,13 @@ def a2a_endpoint():
             {
                 "name": "MCP",
                 "version": "2025-06-18",
-                "endpoint": "https://aethera-api.vercel.app/mcp",
+                "endpoint": "https://aethera-api-alpha.vercel.app/mcp",
                 "transport": "http"
             },
             {
                 "name": "A2A",
                 "version": "0.3.0",
-                "endpoint": "https://aethera-api.vercel.app/.well-known/agent-card.json",
+                "endpoint": "https://aethera-api-alpha.vercel.app/.well-known/agent-card.json",
                 "transport": "http"
             }
         ],
@@ -175,7 +175,7 @@ def oasf_endpoint():
         "name": "aethera",
         "version": "v0.8.0",
         "description": "Main endpoint for Aethera AI analytics",
-        "website": "https://aethera-api.vercel.app",
+        "website": "https://aethera-api-alpha.vercel.app",
         "protocols": ["mcp","a2a"],
         "capabilities": ["data_analysis", "automation", "search"],
         "skills": [
